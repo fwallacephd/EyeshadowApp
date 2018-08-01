@@ -31,7 +31,7 @@ font-family: 'PT Sans Narrow', sans-serif;*/
 /* IMAGE */
 .eyeshadowImage {
   margin-left: 5px;
-  width: 80%;
+  width: 100%;
 }
 
 .blog {
@@ -48,6 +48,11 @@ font-family: 'PT Sans Narrow', sans-serif;*/
   margin-right: 5px;
 }
 
+.key {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 20px;
+  line-height: 2px;
+}
 
 .palette {
   font-family: 'PT Sans Narrow', sans-serif;
@@ -65,7 +70,7 @@ font-family: 'PT Sans Narrow', sans-serif;*/
   margin-bottom: 0px;
 }
 
-..mediumPost {
+.mediumPost {
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 20px;
 }
