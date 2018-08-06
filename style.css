@@ -54,6 +54,14 @@ font-family: 'PT Sans Narrow', sans-serif;*/
   line-height: 2px;
 }
 
+.colorHeader {
+  font-family: 'Anton', sans-serif;
+  font-size: 25px;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+
 .palette {
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 20px;
