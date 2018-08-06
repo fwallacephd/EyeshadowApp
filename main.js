@@ -18,15 +18,14 @@ function getColorData(thisCombination){
 };
 
 function displayHeader(thisCombination){
-  if (thisCombination === "RavenclawCombination") {
-    $(".colorHeader").text("Ravenclaw Blue")
-  } else if (thisCombination === "SlytherinCombination") {
-    $(".colorHeader").text("Slytherin Green")
-  } else if (thisCombination === "GryffindorCombination") {
-    $(".colorHeader").text("Gryffindor Scarlet")
-  } else if (thisCombination === "HufflepuffCombination") {
-    $(".colorHeader").text("Hufflepuff Scarlet")
+  //Dictionary translator pattern
+  const dictionaryCombo = {
+    "RavenclawCombination": "Ravenclaw Blue",
+    "SlytherinCombination": "Slytherin Green",
+    "GryffindorCombination": "Gryffindor Scarlet",
+    "HufflepuffCombination": "Hufflepuff Gold",
   }
+  $(".colorHeader").text(dictionaryCombo[thisCombination])
 };
 
 $(".palette").on("click", function (){
