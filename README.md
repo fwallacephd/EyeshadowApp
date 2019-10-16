@@ -13,3 +13,7 @@ and select your choice of color combination from the following four buttons
 
 Once you select your button, a list of eyeshadow brands and color are listed and 
 corresponds with the eyeshadow diagram. 
+
+This application was created with standard HTML, CSS, and JS.
+I also used Bootstrap to ensure mobile responsiveness. 
+
